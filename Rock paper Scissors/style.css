@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background: darkblue;
+
+}
+
+header{
+    background: white;
+    padding:15px;
+
+}
+header h1{
+    color: rgb(63, 55, 55);
+    text-align: center;
+    font-family: Impact;
+}
+.score-board{
+    border: solid 2px white;
+    width: 220px;
+    margin: 20px auto;
+    color: white;
+    font-size: 35px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px 12px;
+    position: relative;
+    background: linear-gradient(to bottom, #ccc8c8 0%,#2c2c2c 51%,#2b2726 55%,#4b4242 100%);
+}
+
+.badge{
+    background: rgb(243, 63, 63);
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 2px 4px;
+}
+#user-label{
+    position: absolute;
+    top: 12px;
+    left:-12px;
+}
+#comp-label{
+    position: absolute;
+    top: 12px;
+    right:-30px;
+
+}
+.result{
+    font-size: 30px;
+    color:white;
+    text-align: center;
+}
+.choices{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.choice{
+    display: inline-block;
+    border: solid white 2px;
+    border-radius: 30px;
+    margin: 0px 15px;
+    transition: all 0.5s ease-in;
+}
+.choice img{
+    border-radius: 30px;
+    height: 60px;
+    width: 60px;
+}
+.choice:hover{
+    cursor: pointer;
+    border-color: red;
+}
+#action-message{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
